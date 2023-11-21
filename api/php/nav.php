@@ -1,31 +1,16 @@
 <header id="header-out">
-            <nav class="flexbox">
-                <?php
-                        include("nav-left.php");
-            ?>
-                <div class="header-right">
-                    <?php
-                                    include("change-lang-nav.php");
-                        ?>
-                    <button class="sign-in" id="sign-in" onclick="toLogin()">Sign In</button>
-                    <button class="sign-up" onclick="">Sign Up</button>
-                </div>
-            </nav>
-        </header>
-
-<header id="header-out">
         <nav class="flexbox">
                 <?php
-                        include("nav-left.php");
+                        include("api/php/nav-left.php");
                 ?>
                 <div class="header-right">
                         <?php
-                                include("change-lang-nav.php");
+                                include("api/php/change-lang-nav.php");
                                 if ($_COOKIE["loggedIn"] === true){
-                                        include("nav-in.php");
+                                        include("api/php/nav-in.php");
                                 }
                                 else {
-                                        include("nav-out.php");
+                                        include("api/php/nav-out.php");
                                 }
                         ?>
                 </div>
