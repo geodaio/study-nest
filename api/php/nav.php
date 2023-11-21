@@ -21,7 +21,7 @@
                 <div class="header-right">
                         <?php
                                 include("change-lang-nav.php");
-                                if (!isset($_COOKIE["loggedIn"])){
+                                if ($_COOKIE["loggedIn"] === true){
                                         include("nav-in.php");
                                 }
                                 else {
