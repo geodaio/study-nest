@@ -6,5 +6,9 @@
         <?php
             include("api/php/nav.php");
         ?>
+        <?php
+            include("api/php/footer.php");
+            include("api/php/scripts.php");
+        ?>
     </body>
 </html>
