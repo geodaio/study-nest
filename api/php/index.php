@@ -1,4 +1,5 @@
 <?php
+    $title = "Home";
     include("api/php/head.php");
 ?>
 <body class="homepage">
