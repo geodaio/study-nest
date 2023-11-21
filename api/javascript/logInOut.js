@@ -5,8 +5,8 @@ function storeCookies(name, value){
 	console.log(document.cookie);
 }
 
-onload = function checkSign(){
-	if (window.location.href == "https://geodaio.github.io/interactive-design-final/") {
+/*onload = function checkSign(){
+	if (window.location.pathname == "https://geodaio.github.io/interactive-design-final/") {
 		console.log("test");
 	  var allCookies = document.cookie;
 	
@@ -44,7 +44,7 @@ onload = function checkSign(){
 	    }
 	  }
 	}
-};
+};*/
 function signIn() {
 	event.preventDefault();
 	storeCookies("loggedIn", "true");
