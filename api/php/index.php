@@ -1,48 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    
-    <title>Home</title>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" id="favicon"/>
-    
-    <link rel="stylesheet" type="text/css" href="css/studynest.css">
-
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=PT+Serif&display=swap" rel="stylesheet"> <!--Previous three links are links for Google Fonts-->
-</head>
-    <body class="homepage">
-
-
-<header id="header-out">
-            <nav class="flexbox">
-                <div class="header-left">
-                    <a href="index.html"><img src="images/SNLogo.svg" alt="Logo Temp" id="header-logo"></a>
-                  <a href="hub.html" title="Study Hub">Study Hub</a>
-                    <a href="" title="Temp">How it Works</a>
-                    <a href="" title="Temp">Resources</a>
-                    <a href="" title="Temp">About Us</a>
-                </div>
-                <div class="header-right">
-                    <div class="dropdown">
-                        <button class="dropdown-button" id="lang"><img src="images/Globe_icon.svg" alt="ALTTEXT" id="dropdown-img">English</button>
-                        <div class="lang-options">
-                            <a href="" title="English" id="English" onclick="changeLang(this.id)">English</a>
-                            <a href="" title="Spanish" id="Spanish" onclick="changeLang(this.id)">Spanish</a>
-                            <a href="" title="French" id="French" onclick="changeLang(this.id)">French</a>
-                            <a href="" title="German" id="German" onclick="changeLang(this.id)">German</a>
-                            <a href="" title="Russian" id="Russian" onclick="changeLang(this.id)">Russian</a>
-                        </div>
-                    </div>
-                    <button class="sign-in" id="sign-in" onclick="toLogin()">Sign In</button>
-                      <button class="sign-up" onclick="">Sign Up</button>
-                </div>
-            </nav>
-        </header>
+<?php
+    include("api/php/head.php");
+?>
+<body class="homepage">
+    <?php
+        include("api/php/nav.php");
+    ?>
     <div class="flexbox">
             <section class="intro-sect-left">
                 <h1 class="h1style">The choice community for digital workers and nomads</h1>
@@ -210,43 +172,10 @@
             </section>
         </div>
 
-    
-        <footer>
-            
-        </footer>
-        <script src="js/studynest.js"></script>
-        <script src="js/favicon.js"></script>
-        <script src="js/logInOut.js"></script>
- <footer>
-        <div class="content">
-        <div class="top">
-            <div class="logo-details">
-            <span class="logo_name"><img src="SNLogo.svg" alt="Logo Temp" id="header-logo2"></span>
-        </div>
-            <div class="media-icons">
-                <a href="#"><i class="fa-facebook"></i></a>
-                <a href="#"><i class="fa-instagram"></i></a>
-                <a href="#"><i class="fa-facebook"></i></a>
-                <a href="#"><i class="fa-facebook"></i></a>
-                <a href="#"><i class="fa-facebook"></i></a>
-            </div>
-          </div>
-            <hr class="hrstyle">
-            <div class="bottom-details">
-            <div class="bottom_text">
-                <span class="copyright_text"><a href="#"> Study Nest© 2023. All rights reserved</a></span>
-                <span class="Policy-terms">
-                    <a href="#">Privacy policy</a>
-                    <a href="#">Terms and condtions</a>
-                </span>
-            </div>
-            </div>
-          <div class="link-boxes"></div>
-        </div>
-        </footer>
-        
-     <script type="text/javascript" src="home.js"></script>
-    <script type="text/javascript" src="favicon.js"></script>
-    <script type="text/javascript" src="logInOut.js"></script>
+
+
+    <?php
+        include("api/php/footer.php");
+    ?>
  </body>
 </html>
