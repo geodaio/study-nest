@@ -35,8 +35,8 @@
             </div>
           </div>
         </section>
-        <script type="text/javascript" src="home.js"></script>
-        <script type="text/javascript" src="favicon.js"></script>
-        <script type="text/javascript" src="logInOut.js"></script>
+        <?php
+            include("api/php/scripts.php");
+        ?>
     </body>
 </html>
