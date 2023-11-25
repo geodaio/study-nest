@@ -7,22 +7,10 @@ function storeCookies(name, value){
 function signIn() {
 	event.preventDefault();
 	storeCookies("loggedIn", "true");
-	window.location.assign("https://geodaio.github.io/interactive-design-final/index-login");
 	console.log(document.cookie);
 }
 function signOut() {
 	event.preventDefault();
 	storeCookies("loggedIn", "false");
-	window.location.assign("https://geodaio.github.io/interactive-design-final");
 	console.log(document.cookie);
-}
-
-function toLogin() {
-	window.location.assign("https://geodaio.github.io/interactive-design-final/login");
-	console.log("1");
-}
-
-function backToHome() {
-	window.location.assign("https://geodaio.github.io/interactive-design-final");
-	console.log("2");
 }
