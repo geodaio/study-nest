@@ -12,5 +12,9 @@ function signIn() {
 function signOut() {
 	event.preventDefault();
 	storeCookies("loggedIn", "false");
+	window.location.assign("https://study-nest.vercel.app/");
 	console.log(document.cookie);
+}
+function toLogin() {
+	window.location.assign("https://study-nest.vercel.app/api/php/login.php");
 }
