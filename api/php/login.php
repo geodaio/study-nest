@@ -8,7 +8,7 @@
             <button class="" id="leave-login" onclick="backToHome()"><img src="temp" alt="X" title=""></button>
             <h2>Login</h2>
             <p>Sign in to continue access</p>
-            <form id="form-login">
+            <form id="form-login" method="post" action="in.php">
               <label for="email">Email Address:</label><br>
               <input type="email" id="email" name="email"><br>
               <label for="password">Password:</label><br>
