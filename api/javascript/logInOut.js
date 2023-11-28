@@ -1,3 +1,6 @@
+const myHeaders = new Headers();
+myHeaders.set("Content-Type", "text/javascript");
+
 function storeCookies(name, value){
   var myDate = new Date();
 	myDate.setMonth(myDate.getMonth() + 1);
