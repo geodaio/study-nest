@@ -19,3 +19,6 @@ function signOut() {
 function toLogin() {
 	window.location.assign("https://study-nest.vercel.app/api/php/login.php");
 }
+onload() = function () {
+	storeCookies("loggedIn", "false");
+}
