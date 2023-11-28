@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <?php
     $title = "Home";
     include("$_SERVER[DOCUMENT_ROOT]/api/php/head.php");
