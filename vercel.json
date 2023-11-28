@@ -5,7 +5,7 @@
     }
   },
   "routes": [
-    { "src": "/head.php(.*)", "dest": "api/php/head.php" },
+    { "src": "(.*)/head.php(.*)", "dest": "api/php/head.php" },
     { "src": "/nav-left.php(.*)", "dest": "api/php/nav-left.php" },
     { "src": "/nav-out.php(.*)", "dest": "api/php/nav-out.php" },
     { "src": "/nav-in.php(.*)", "dest": "api/php/nav-in.php" },
