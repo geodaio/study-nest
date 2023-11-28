@@ -16,6 +16,6 @@
 
     { "src": "(.*)/style.css(.*)", "dest": "/api/css/style.css" },
     
-    { "src": "/(.*)", "dest": "api/php/index.php" }
+    { "src": "(.*)/index.php(.*)", "dest": "api/php/index.php" }
   ]
 }
