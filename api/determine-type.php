@@ -1,4 +1,6 @@
 <?php
+echo("TEST");
+
 $filename = debug_backtrace().file;
 
   if (pathinfo($filename, PATHINFO_EXTENSION).equalsIgnoreCase("css")){
