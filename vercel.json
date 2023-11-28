@@ -15,6 +15,12 @@
     { "src": "(.*)/scripts.php(.*)", "dest": "api/php/scripts.php" },
 
     { "src": "(.*)/style.css", "dest": "/api/css/style.css" },
+
+    { "src": "(.*)/favicon.js", "dest": "/api/javascript/favicon.js" },
+    { "src": "(.*)/home.js", "dest": "/api/javascript/home.js" },
+    { "src": "(.*)/logInOut.js", "dest": "/api/javascript/logInOut.js" },
+    { "src": "(.*)/profile.js", "dest": "/api/javascript/profile.js" },
+    { "src": "(.*)/studynest.js", "dest": "/api/javascript/studynest.js" },
     
     { "src": "/(.*)", "dest": "api/php/index.php" }
   ]
