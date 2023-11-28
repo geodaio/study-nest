@@ -4,7 +4,7 @@
 ?>
 <body class="homepage">
     <?php
-        include("api/php/nav.php");
+        include("$_SERVER[DOCUMENT_ROOT]/api/php/nav.php");
     ?>
     <div class="flexbox">
             <section class="intro-sect-left">
