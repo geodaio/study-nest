@@ -2,11 +2,11 @@
 
 <?php
     $title = "Home";
-    include($_SERVER[DOCUMENT_ROOT]."/api/php/head.php");
+    include($_SERVER["DOCUMENT_ROOT"]."/api/php/head.php");
 ?>
 <body class="homepage">
     <?php
-        include($_SERVER[DOCUMENT_ROOT]."/api/php/nav.php");
+        include($_SERVER["DOCUMENT_ROOT"]."/api/php/nav.php");
     ?>
     <div class="flexbox">
             <section class="intro-sect-left">
