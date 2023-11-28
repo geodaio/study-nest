@@ -5,8 +5,6 @@
     }
   },
   "routes": [
-    { "src": "(.*)/style.css(.*)", "dest": "api/css/style.css" },
-    
     { "src": "(.*)/head.php(.*)", "dest": "api/php/head.php" },
     { "src": "(.*)/nav-left.php(.*)", "dest": "api/php/nav-left.php" },
     { "src": "(.*)/nav-out.php(.*)", "dest": "api/php/nav-out.php" },
@@ -15,6 +13,8 @@
     { "src": "(.*)/login.php(.*)", "dest": "api/php/login.php" },
     { "src": "(.*)/footer.php(.*)", "dest": "api/php/footer.php" },
     { "src": "(.*)/scripts.php(.*)", "dest": "api/php/scripts.php" },
+
+    { "src": "(.*)/style.css(.*)", "dest": "api/css/style.css" },
     
     { "src": "/(.*)", "dest": "api/php/index.php" }
   ]
