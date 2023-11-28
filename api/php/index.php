@@ -154,8 +154,8 @@
             </section>
         </div>
     <?php
-        include("api/php/footer.php");
-        include("api/php/scripts.php");
+        include("$_SERVER[DOCUMENT_ROOT]/api/php/footer.php");
+        include("$_SERVER[DOCUMENT_ROOT]/api/php/scripts.php");
     ?>
  </body>
 </html>
