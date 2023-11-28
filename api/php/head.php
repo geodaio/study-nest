@@ -10,9 +10,9 @@
       echo $title;
     ?>
     </title>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" id="favicon"/>
+    <link rel="shortcut icon" type="image/x-icon" href="api/images/favicon.ico" id="favicon"/>
     
-    <link rel="stylesheet" type="text/css" href="css/studynest.css">
+    <link rel="stylesheet" type="text/css" href="api/css/studynest.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
