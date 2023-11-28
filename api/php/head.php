@@ -10,7 +10,7 @@
     </title>
     <link rel="shortcut icon" type="image/x-icon" href="api/images/favicon.ico" id="favicon"/>
     
-    <link rel="stylesheet" type="text/css" href="api/css/style.css">
+    <link rel="stylesheet" type="text/css" href="<?php $_SERVER[DOCUMENT_ROOT]/?>api/css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
