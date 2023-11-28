@@ -14,7 +14,7 @@
     { "src": "(.*)/footer.php(.*)", "dest": "api/php/footer.php" },
     { "src": "(.*)/scripts.php(.*)", "dest": "api/php/scripts.php" },
 
-    { "src": "(.*)/style(.*)", "dest": "/api/css/style.css" },
+    { "src": "(.*)/style.css", "dest": "https://study-nest.vercel.app/style.css" },
 
     { "src": "(.*)/favicon.js", "dest": "/api/javascript/favicon.js" },
     { "src": "(.*)/home.js", "dest": "/api/javascript/home.js" },
