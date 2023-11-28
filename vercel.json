@@ -11,6 +11,8 @@
     { "src": "(.*)/nav-in.php(.*)", "dest": "api/php/nav-in.php" },
     { "src": "(.*)/nav.php(.*)", "dest": "api/php/nav.php" },
     { "src": "(.*)/login.php(.*)", "dest": "api/php/login.php" },
+    { "src": "(.*)/footer.php(.*)", "dest": "api/php/footer.php" },
+    { "src": "(.*)/scripts.php(.*)", "dest": "api/php/scripts.php" },
 
     { "src": "(.*)/studynest.css", "dest": "api/css/studynest.css" },
 
