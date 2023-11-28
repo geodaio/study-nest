@@ -1,6 +1,6 @@
 <?php
     $title = "Home";
-    include("api/php/head.php");
+    include("$_SERVER[DOCUMENT_ROOT]/api/php/head.php");
 ?>
 <body class="homepage">
     <?php
