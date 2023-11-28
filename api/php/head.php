@@ -11,7 +11,7 @@
     </title>
     <link rel="shortcut icon" type="image/x-icon" href="/api/images/favicon.ico" id="favicon"/>
     
-    <link href="https://study-nest.vercel.app/api/css/style.css" rel="stylesheet" type="text/css">
+    <link href="api/css/style.css" rel="stylesheet" type="text/css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
