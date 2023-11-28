@@ -1,8 +1,5 @@
 {
   "functions": {
-    "api/determine-type.php(.*)" {
-      "runtime": "vercel-php@0.6.0"
-    },
     "api/**/*": {
       "runtime": "vercel-php@0.6.0"
     }
