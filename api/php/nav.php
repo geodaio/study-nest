@@ -10,7 +10,7 @@
                                         include($_SERVER["DOCUMENT_ROOT"] . "/api/php/nav-in.php");
                                 }
                                 else {
-                                        include($_SERVER["DOCUMENT_ROOT"] . "/api/php/nav-out.php");
+                                        include($_SERVER['DOCUMENT_ROOT'] . "/api/php/nav-out.php");
                                 }
                         ?>
                 </div>
