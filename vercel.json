@@ -21,6 +21,9 @@
     { "src": "(.*)/logInOut.js", "dest": "/api/javascript/logInOut.js" },
     { "src": "(.*)/profile.js", "dest": "/api/javascript/profile.js" },
     { "src": "(.*)/studynest.js", "dest": "/api/javascript/studynest.js" },
+
+    { "src": "(.*)/Globe_icon.svg", "dest": "/api/images/Globe_icon.svg" },
+    { "src": "(.*)/SNLogo.svg", "dest": "/api/images/SNLogo.svg" },
     
     { "src": "/(.*)", "dest": "api/php/index.php" }
   ]
