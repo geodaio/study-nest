@@ -1,8 +1,9 @@
 <?php
 
-$servername = "localhost"; // Fill this with DB Host (localhost)
-$username = ""; // FIll this with your DB User
-$password = ""; // Fill this with password created during database setup
-$db = ""; // Fill this with DB Name
+$servername = "study-nest-6298.g8z.cockroachlabs.cloud"; // Fill this with DB Host 
+$username = "geodaio"; // FIll this with your DB User
+$password = "x3CLHgV0BauSUdhr0jFB6g"; // Fill this with password created during database setup
+$db = "defaultdb"; // Fill this with DB Name
+$port = "26257";
 
 ?>
