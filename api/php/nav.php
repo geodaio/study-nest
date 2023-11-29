@@ -10,6 +10,7 @@
                                         include($_SERVER['DOCUMENT_ROOT'] . "/api/php/nav-in.php");
                                 }
                                 else {
+                                        echo("test");
                                         include($_SERVER['DOCUMENT_ROOT'] . "/api/php/nav-out.php");
                                 }
                         ?>
