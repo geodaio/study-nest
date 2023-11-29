@@ -1,5 +1,6 @@
-Response.headers.set("Content-Type", "text/javascript");
-
+<?php
+	header('Content-Type: text/javascript');
+?>
 function storeCookies(name, value){
   var myDate = new Date();
 	myDate.setMonth(myDate.getMonth() + 1);
