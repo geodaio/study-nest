@@ -5,6 +5,7 @@
                 ?>
                 <div class="header-right">
                         <?php
+                                print_r($_COOKIE); //DEBUG
                                 include($_SERVER['DOCUMENT_ROOT'] . "/api/php/change-lang-nav.php");
                                 if (!isset($_COOKIE["loggedIn"]) && $_COOKIE["loggedIn"] === true){
                                         include($_SERVER['DOCUMENT_ROOT'] . "/api/php/nav-in.php");
