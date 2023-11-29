@@ -15,7 +15,7 @@
               <input type="email" id="email" name="email"><br>
               <label for="password">Password:</label><br>
               <input type="password" id="password" name="password"><br>
-              <input type="submit" id="login-button" value="Login" onclick="signIn()">
+              <input type="submit" id="login-button" value="Login">
             </form>
             <button class="" id="forgot-password" onclick="">Forgot password?</button>
             <div id="button-log">
