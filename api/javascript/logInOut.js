@@ -1,6 +1,3 @@
-<?php
-	header('Content-Type: text/javascript');
-?>
 function storeCookies(name, value){
   var myDate = new Date();
 	myDate.setMonth(myDate.getMonth() + 1);
@@ -22,6 +19,10 @@ function signOut() {
 function toLogin() {
 	window.location.assign("https://study-nest.vercel.app/api/php/login.php");
 }
-onload() = function () {
+window.onload = function () {
 	storeCookies("loggedIn", "false");
+	var documentVal = window.location.href;
+    	var searchDocument = new URLSearchParams(documentVal);
+    
+    	searchDocument.append('Content-Type', 'text/css');
 }
