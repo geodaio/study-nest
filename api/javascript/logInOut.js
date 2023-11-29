@@ -21,7 +21,6 @@ function toLogin() {
 }
 window.onload = function () {
 	var found = false;
-	storeCookies("loggedIn", "false");
  	console.log("test");
  	var allCookies = document.cookie;
  	
