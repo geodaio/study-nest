@@ -1,5 +1,4 @@
-const myHeaders = new Headers();
-myHeaders.set("Content-Type", "text/javascript");
+Response.headers.set("Content-Type", "text/javascript");
 
 function storeCookies(name, value){
   var myDate = new Date();
