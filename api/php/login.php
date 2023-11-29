@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <?php
-    $title = "Home";
+    $title = "Log-In";
     include($_SERVER["DOCUMENT_ROOT"] . "/api/php/head.php");
 ?>
 <body id="body-login">
